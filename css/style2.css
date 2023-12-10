@@ -70,11 +70,10 @@ section.slider {
 #sld-01, #yt-sld-01{
     background-color: #0cd85a;
 }
-#sld-02, #yt-sld-01{
+#sld-02, #yt-sld-02{
     background-color: #ff7402;
 }
-#sld-03, #yt-sld-01{
-    
+#sld-03, #yt-sld-03{
     background-color: aquamarine;
 }
 
@@ -103,7 +102,7 @@ section.slider {
     position: absolute;
     width: 100%;
     max-width: calc(100% - 23%);
-    margin-top: 30%;
+    margin-top: 32%;
     display: flex;
     justify-content: center;
 }
