@@ -103,7 +103,7 @@ section.slider {
     position: absolute;
     width: 100%;
     max-width: calc(100% - 23%);
-    margin-top: 28%;
+    margin-top: 30%;
     display: flex;
     justify-content: center;
 }
