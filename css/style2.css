@@ -156,7 +156,8 @@ section.slider {
     }
 
     .nav-auto, .nav-manual{
-        margin-top: 28%;
+        margin-top: 32%;
+        margin-left: 10%;
     }
     .project .slider{
         margin: 0;
