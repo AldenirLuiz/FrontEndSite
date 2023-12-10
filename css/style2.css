@@ -11,6 +11,7 @@ section.slider {
 /* Area da imagem dos slides*/
 .sld-img-box{
     width: 60%;
+    max-height: 90%;
 }
 
 .img-desktop, .img-mobile{
@@ -20,7 +21,6 @@ section.slider {
     margin-left: 2%;
     max-width: 95%;
     box-shadow: 0 0 24px;
-    border-radius: 12px;
 }
 
 .img-ytdld-logo {
@@ -28,6 +28,12 @@ section.slider {
     padding: 22px;
     margin: 0 auto;
     
+}
+
+.img-corro-logo{
+    width: 80%;
+    padding: 22px;
+    margin: 0 auto;
 }
 
 
