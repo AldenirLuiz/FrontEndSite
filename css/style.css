@@ -111,7 +111,7 @@ main section {
     width: 100%;
     margin: 10px;
     background: linear-gradient( white, whitesmoke, aliceblue);
-    border-radius: 16px;
+    border-radius: 8px;
 }
 
 .card {
@@ -148,7 +148,7 @@ h2 {
     width: 100%;
     padding: 0;
     margin: 0;
-    border-radius: 14px 14px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
 }
 
 .titles h2 {
@@ -205,6 +205,10 @@ a {
 
 @media only screen and (max-width: 717px){
 
+    #title_c #title{
+        font-size: 24pt;
+    }
+
     #img_profile{
         width: 200px;
     }
@@ -214,9 +218,6 @@ a {
         justify-items: center;
     }
 
-    #my-name-container h2{
-        color: aqua;
-    }
 
     #openMenu, #closeMneu{
         display: block;
@@ -243,8 +244,6 @@ a {
         padding: 0;
         width: 100vh;
         max-width: 100%;
-        border: 0;
-        border-radius: 0;
     }
 
     nav {
