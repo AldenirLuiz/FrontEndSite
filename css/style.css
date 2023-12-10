@@ -20,7 +20,7 @@ menu, nav, main, aside, footer {
 
 menu{
     flex: 1 1 100vh;
-    height: 60px;
+    height: 80px;
 }
 
 menu #logo {
@@ -48,7 +48,7 @@ aside {
 }
 
 #img_logo {
-    width: 100px;
+    width: 80px;
     height: auto;
     padding: 8px;
 }
