@@ -62,8 +62,8 @@ section.slider {
 .sld-txt-box p{
     align-self: flex-start;
     padding: 2px;
-    margin: 0 auto;
     font-size: 14pt;
+    text-align: start;
 }
 /*#######################################*/
 
@@ -158,6 +158,11 @@ section.slider {
 
     .nav-auto, .nav-manual{
         margin-top: 28%;
+    }
+    .project .slider{
+        margin: 0;
+        padding: 0;
+        width: 100vw;
     }
 
     .slide-box{
