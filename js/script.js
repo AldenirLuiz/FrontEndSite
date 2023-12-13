@@ -49,7 +49,7 @@ closeMenu.addEventListener('click', () => {
 })
 
 openMore.addEventListener('click', () => {
-    p_hide_sobre.style.display = 'flex';
+    p_hide_sobre.style.display = 'block';
     closeMore.style.display = 'flex';
     openMore.style.display = 'none';
 })
