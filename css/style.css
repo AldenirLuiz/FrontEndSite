@@ -219,6 +219,16 @@ a {
     color: inherit;
 }
 
+.site-footer{
+    padding: 0;
+    margin: 0;
+    background-color: darkgray;
+    border-radius: 9px 9px 0 0 ;
+}
+.footer-right p{
+    font-size: 8pt;
+}
+
 @media only screen and (max-width: 923px){
     header {
         order: 0;
