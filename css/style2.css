@@ -154,6 +154,16 @@ section.slider {
 }
 
 @media screen and (max-width: 900px){
+    .slider-content{
+        height: fit-content;
+        order: 1;
+    }
+    .project .slider{
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+
     .img-desktop{
         display: none;
     }
@@ -162,24 +172,15 @@ section.slider {
     }
 
     .nav-auto, .nav-manual{
-        margin-top: 32%;
-        margin-left: 10%;
+        display: none;
     }
-    .project .slider{
-        margin: 0;
-        padding: 0;
-        width: 100vw;
-    }
-
+    
     .slide-box{
         display: flex;
         flex-direction: column;
         height: fit-content;
     }
-    .slider-content{
-        height: fit-content;
-    }
-
+    
     .sld-img-box, .sld-txt-box{
         padding: 10px;
         width: 100%;
