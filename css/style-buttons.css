@@ -41,6 +41,7 @@
 }
 
 .social_media svg {
+    width: 40pt;
     margin-left: 8px;
     height: 50px;
     filter: drop-shadow(0 5px 10px rgba(0, 0, 0, .4));
@@ -79,6 +80,9 @@
 
 
 @media screen and (max-width: 925px){
+    .social_media a svg{
+        width: 22pt;
+    }
     
     .social_media{
         display: flex;
