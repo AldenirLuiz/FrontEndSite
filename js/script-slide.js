@@ -1,21 +1,23 @@
-var counter = 1;
+var counter = 0;
 
-document.getElementById('radio1').checked = true;
-document.getElementById('yt-radio1').checked = true;
+const elements = document.getElementsByName('btn-radio')
+const elements_yt = document.getElementsByName('yt-btn-radio')
+
+elements[0].checked = true;
+elements_yt[0].checked = true;
 
 setInterval(() => {
-    proxImg();
-    
+    proxSlide(elements[counter]);
+    proxSlide(elements_yt[counter]);
 }, 5000)
 
-function proxImg(){
-    document.getElementById('radio'+counter).checked = false;
-    document.getElementById('yt-radio'+counter).checked = false;
+function proxSlide(element){
+    element.checked = false;
     counter ++;
 
-    if (counter > 3){
-        counter = 1
+    if (counter > 2){
+        counter = 0;
     }
-    document.getElementById('radio'+counter).checked = true;
-    document.getElementById('yt-radio'+counter).checked = true;
+    element.checked = true;
 }
+

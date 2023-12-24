@@ -42,16 +42,15 @@ section.slider {
     width: 40%;
     height: 100%;
 
-    margin: 8px auto;
-    padding: 8px;
+    margin: 2px auto;
+    padding: 2px;
 
     display: flex;
     flex-direction: column;
 
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 
-    text-justify: inter-word;
     text-align: left;
 
     font-family: 
@@ -67,8 +66,8 @@ section.slider {
 
 .sld-txt-box p{
     align-self: flex-start;
-    padding: 2px;
-    font-size: 14pt;
+    padding: 0px;
+    font-size: 12pt;
     text-align: start;
 }
 /*#######################################*/
@@ -125,19 +124,19 @@ section.slider {
     margin-right: 10px;
 }
 
-.nav-manual .manual-btn:hover{
+.nav-manual .manual-btn:hover, .nav-manual .yt-manual-btn:hover{
     background-color: #0cd85a;
 }
 
-#radio1:checked ~ .nav-auto .auto-btn1, #yt-radio1:checked ~ .nav-auto .auto-btn1{
+#radio1:checked ~ .nav-auto .auto-btn1, #yt-radio1:checked ~ .nav-auto .yt-auto-btn1{
     background-color: #0cd85a;
 }
 
-#radio2:checked ~ .nav-auto .auto-btn2, #yt-radio2:checked ~ .nav-auto .auto-btn2{
+#radio2:checked ~ .nav-auto .auto-btn2, #yt-radio2:checked ~ .nav-auto .yt-auto-btn2{
     background-color: #ff7402;
 }
 
-#radio3:checked ~ .nav-auto .auto-btn3, #yt-radio3:checked ~ .nav-auto .auto-btn3{
+#radio3:checked ~ .nav-auto .auto-btn3, #yt-radio3:checked ~ .nav-auto .yt-auto-btn3{
     background-color: aqua;
 }
 
