@@ -15,9 +15,8 @@ function proxSlide(element){
     element.checked = false;
     counter ++;
 
-    if (counter > 2){
-        counter = 0;
-    }
+    counter = counter > 2 ? counter=0: counter;
+    
     element.checked = true;
 }
 
